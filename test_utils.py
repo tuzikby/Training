@@ -58,6 +58,7 @@ def first_ten_python_articles():
         array_articles.append(title)
     return array_articles
 
+#retrieve top 10 articles
 
 def top_ten_articles():
     return_array = []
@@ -67,3 +68,4 @@ def top_ten_articles():
     for x in top_ten:
         return_array.append({'Title':x['title'], 'Number Of Comments':x['num_comments']})
     return return_array
+
